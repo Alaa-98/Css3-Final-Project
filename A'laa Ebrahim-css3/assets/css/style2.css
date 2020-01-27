@@ -1,0 +1,676 @@
+/* general */
+html{
+    font-size: 10px;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container {
+    margin: 0 auto;
+    width: 90%;   
+}
+body {
+    font-family: 'themify', sans-serif;
+}
+
+/* general */
+/* start main */
+main {
+    background-image: url("../images/welcome-bg.png");
+    background-size: cover;
+    background-repeat:no-repeat;
+    height: 120vh;
+    background-position: bottom;
+    position: relative;
+
+}
+header .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.hero-section h2{
+    font-size: 6rem;
+    color: white;
+}
+
+
+.navbar__links {
+    list-style: none;
+    font-size: 1.5rem;
+    display: flex;
+    
+}
+.navbar__links li{
+    padding: 0 1em;
+}
+.navbar__links a{
+    text-decoration: none;
+    color: white;
+}
+main header button {
+    border: 1px solid rgb(235, 234, 234);
+    color: white;
+    padding: 1.2em 3em;
+    border-radius: 3em 3em 3em 0;
+    background-color: transparent;
+}
+
+
+.container .title{
+margin-top: 20em;
+margin-bottom:7em ;
+}
+.container h1{
+    color: white;
+    font-size: 8rem;
+    padding-bottom: .2em;
+}
+.container p{
+    color: white;
+    font-size: 1.4rem;
+}
+
+.get-started .start-btn{
+    border: none;
+    padding: 1.2em 3em;
+    border-radius: 3em 3em 3em 0;
+    background-color: rgb(255, 0, 136);
+    color: white;
+}
+.container input {
+    padding: 1.2em 1em;
+    border-radius: 3em;
+    border: none;
+    background-color: rgba(255, 255, 255, 0.4);
+
+}
+.container figure img{
+    position: absolute;
+    right: 5em;
+    width: 45%;
+    bottom: -14em;
+}
+/* end main */
+
+/*start about*/
+.about{
+    text-align: center;
+    margin-bottom: 10em;
+}
+.about h2{
+padding-top: 2em;
+color: indigo;
+font-size: 5rem;
+font-weight: lighter;
+}
+.about h2::after{
+    content: "";
+    width: 2em;
+    height: .05em;
+    background: rgb(255, 0, 136);
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 2em;
+    margin-top: .5em;
+}
+
+.specifics-wrapper{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+   
+}
+.specifics{
+    border: 1px solid rgb(235, 234, 234);
+    border-radius: 3em 3em 3em 0;
+    width: 25%;
+    padding-top: 3em;
+    padding-bottom: 3em;
+    padding-left: 2em;
+    padding-right: 2em;
+    margin-left: 1em;
+    margin-right: 1em;
+}
+.specifics-wrapper i{
+    color: rgb(255, 0, 136);
+    font-size: 2.8em;
+    padding-bottom: 1em;
+}
+
+.specifics-wrapper h5{
+color: indigo;
+font-size: 2.2em ;
+padding-bottom: 1em;
+font-weight: lighter;
+}
+.specifics-wrapper p{
+    color: gray;
+    line-height: 1.6em;
+    font-size: 1.4rem;
+    
+}
+/*end about*/
+
+/*start app*/
+
+.app .app-container {
+   display: flex;
+   margin-top: 10em;
+   align-items: center;
+   margin: 0 auto;
+   margin-bottom: 5em;
+ 
+}
+.app-container{
+    width: 70%;
+}
+.app-container img{
+    width: 55%;
+    padding-right: 5em;
+}
+.install-app header h2{
+    color: indigo;
+    font-size: 4rem;
+    font-weight: lighter;
+    padding-bottom: 1em;
+}
+
+.install-app header p{
+    font-size: 1.4rem;
+    color: gray;
+    line-height: 1.6em;
+   padding-bottom: 3em;
+}
+
+.install-btn {
+    display: inline-block;
+}
+.install-btn p{
+    font-size: 1.2em;
+}
+.install-btn a{
+    padding: 1em 3em;
+    color:black;
+   border: 1px solid rgb(231, 231, 231);
+   text-decoration: none;
+  display: inline-block;
+  border-radius: 3em 3em 3em 0;
+  box-shadow: 3px 3px 3px rgb(219, 219, 219);
+}
+.install-app a:hover{
+    background-color:rgb(139, 10, 231) ;
+}
+.install-btn i{
+    font-size: 30px;
+    color:  grey;
+    padding-right: 10px;
+}
+.install-btn .install-text{
+    text-align: left;
+    display: inline-block;
+}
+/*end app*/
+/*start all features*/
+.all-features{
+    margin-bottom: 8em;
+}
+.all-features header{
+text-align: center;
+}
+.all-features header h2{
+    color: indigo;
+    font-size: 5rem;
+    font-weight: lighter; 
+  
+}
+.all-features h2::after{
+    content: "";
+    width: 2em;
+    height: .05em;
+    background: rgb(255, 0, 136);
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 2em;
+    margin-top: .5em;
+}
+
+.all-features section{
+    display: flex;
+    justify-content: center; 
+}
+section .feature{
+    width: 30%;
+    padding-bottom: 3em;
+}
+.all-features .feature h5 {
+    font-size: 2.2em;
+    color: indigo;
+    font-weight: lighter;
+   
+}
+.all-features .feature p {
+    font-size: 1.4em;
+    color: gray;
+    line-height: 1.6em;
+    width: 90%;
+  
+}
+.feature .icon-text{
+  display: flex;
+
+   
+}
+.feature .icon-text i{
+    color: rgb(255, 0, 136);
+    font-size: 2.2em;
+    padding-right: .5em;
+
+}
+/*end all features*/
+
+/*start video*/
+.video{
+    text-align: center;
+    position: relative;
+}
+.video .play{
+    position: absolute;
+    left: 0;
+    right: 0;
+    z-index: 1;
+    top: 45%;
+}
+.play i{
+    font-size: 7em;
+    color: rgb(255, 0, 136) ;
+}
+.video video{
+    border:3em solid white;
+    border-radius: 2em;
+    box-shadow: .3em .3em .3em rgba(0,0,0,.2);
+
+    }
+/*end video*/
+/*start stat ribbon*/
+.stats-ribbon{
+    display: flex;
+    color: white;
+    justify-content: space-evenly;
+    background-color: rgb(181, 91, 245);
+    margin-top: -12em;
+    padding: 8em 0;
+}
+.stat{
+    display: flex;
+    margin-top: 10em;
+}
+.stat h2{
+font-weight: lighter;
+font-size: 5em;
+padding-right: .8em;
+padding-top: .6em;
+}
+.stat i{
+font-size: 2.2em;
+padding-bottom: .7em;
+}
+.stat p{
+font-size: 1.6em;
+line-height: 1.3em;
+}
+/*start stat ribbon*/
+/*start slider*/
+.slider{
+   text-align: center;
+}
+.slider h2{
+    color: indigo;
+    font-size: 5rem;
+    font-weight: lighter; 
+  margin-top: 2em;
+}
+.slider h2::after{
+    content: "";
+    width: 2em;
+    height: .05em;
+    background: rgb(255, 0, 136);
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 2em;
+    margin-top: .5em;
+}
+.slider .images{
+    display: flex;
+    padding-bottom:5em ;
+}
+.slider .images img{
+    width: 65%;
+    
+}
+.grow { transition: all .2s ease-in-out; opacity:.5; }
+.grow:hover { transform: scale(1.2); opacity:1;}
+
+.dot-active {
+    height: 1em;
+    width: 1em;
+   background-color:rgb(255, 0, 136) ;
+    border-radius: 50%;
+    display: inline-block;
+    margin: 0 .5em;
+  }
+  .dot {
+    height: 1em;
+    width: 1em;
+    border: .2em solid rgb(177, 176, 176);
+    border-radius: 50%;
+    display: inline-block;
+    margin: 0 .5em;
+  }
+  /*end slider*/
+  /*start plan prices*/
+  .price-plans {
+      text-align: center;
+      background-color: rgb(239, 239, 250);
+      margin-top: 10em;
+      padding-top: 7em;
+  }
+
+  .price-plans header h2{
+    color: indigo;
+    font-size: 5rem;
+    font-weight: lighter; 
+  
+}
+.price-plans h2::after{
+    content: "";
+    width: 2em;
+    height: .05em;
+    background: rgb(255, 0, 136);
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 2em;
+    margin-top: .5em;
+}
+.plans-list{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 8em;
+}
+.plan{
+    border: 1px solid rgb(231, 231, 231);
+    border-radius: 5em 5em 5em 0;
+    width: 22%;
+    background-color: white;
+}
+.plan .price{
+    padding-top: 5em;
+    border-bottom:1px solid rgb(231, 231, 231);
+}
+.price:hover{
+    background-color:rgb(139, 10, 231) ;
+    border-radius: 5em 5em 0 0;
+}
+
+.plan .price h5{
+color: indigo;
+font-size: 1.8em;
+font-weight: lighter;
+}
+.plan .price p{
+color: rgb(255, 0, 136);
+font-size:3.5em ;
+padding-bottom: 1em;
+}
+.plan .price sup{
+    font-size:.5em ;
+    }
+
+.plan ul{
+list-style: none;
+
+}
+.plan ul li{
+    padding: 1em 0;
+    font-size: 1.5em;
+    color: grey;
+    border-bottom: 1px solid rgb(231, 231, 231);
+}
+.plan ul li:nth-child(6){
+    background-color:rgb(139, 10, 231);
+    border-radius: 0 0 3em 0;
+}
+.plan ul a{
+    text-decoration: none;
+    color: white;
+}
+ /*end plan prices*/
+/*start reviews*/
+.reviews{
+    text-align: center;
+    margin: 7em 0;
+}
+.reviews p{
+    font-size: 1.8em;
+    color: gray;
+    line-height: 1.6em;
+    width: 64%;
+    text-align: center;
+    margin: 0 auto;
+    padding-bottom: 1.5em;
+}
+.reviews i{
+    font-size: 4em;
+    color: rgb(139, 10, 231);
+    padding-bottom: 1em;
+}
+.reviews .star-rate{
+    font-size: 1.3em;
+    color: rgb(255, 217, 0);
+}
+.reviews h5{
+color: rgb(139, 10, 231);
+font-size: 2em;
+font-weight: lighter;
+}
+.reviews .job{
+    color: rgb(184, 181, 181);
+    font-size: 1.5em;
+}
+.review-images{
+    display: flex;
+    justify-content: center;
+    margin-top: 2em;
+
+}
+.grow-img { transition: all .2s ease-in-out;}
+.grow-img:hover { transform: scale(1.2);}
+
+.review-images img{
+    width: 8%;
+    margin: 0 2em;
+    border-radius: 50%;
+    border: 6px solid white;
+    box-shadow: 3px 3px 3px rgb(219, 219, 219);
+}
+
+.reviews .dot{
+    margin-top: 3em;
+}
+/*end reviews*/
+/*start mempership*/
+.membership{
+ background-color: rgb(181, 91, 245);
+ color: white;
+ padding: 6em 5em;
+ display: flex;
+ align-items: center;
+ justify-content: space-between;
+}
+.membership h3{
+    font-size: 3.2em;
+    font-weight:lighter ;
+    padding-bottom: .2em;
+}
+.membership p{
+    font-size: 1.5em;
+}
+.membership a{
+    border: none;
+    padding: 1.2em 3em;
+    border-radius: 3em 3em 3em 0;
+    background-color: white;
+    color: rgb(255, 0, 136);
+    text-decoration: none;
+    font-size: 1.3em;
+    font-weight: bolder;
+}
+/*end mempership*/
+/*start team*/
+.our-team{
+    text-align: center;
+    margin-bottom: 10em;
+}
+.our-team h2{
+    padding-top: 2em;
+    color: indigo;
+    font-size: 5rem;
+    font-weight: lighter;
+    }
+.our-team h2::after{
+    content: "";
+    width: 2em;
+    height: .05em;
+    background: rgb(255, 0, 136);
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 1em;
+    margin-top: .5em;
+}
+.our-team .member-image{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 0 auto;
+    width: 90%;
+}
+.our-team .member{
+    width: 20%;
+}
+.member figure {
+    position: relative;
+  }
+  .member img{
+      width: 100%;
+      border-radius: 3em 3em 3em 0;
+  }
+.overlay{
+    background-color:rgba(181, 91, 245, .8) ;
+    width: 100%;
+    height: 100%;
+    border-radius: 3em 3em 3em 0;
+    position: absolute;
+    display: table;
+    opacity: 0;
+}
+.overlay-content{
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+}
+.overlay-content i{
+    font-size: 1.6em;
+    background-color: rgb(181, 91, 245);
+    border-radius: 1.5em 1.5em 1.5em 0;
+    color: white;
+    padding: .3em;
+}
+.overlay:hover{
+    opacity: 1;
+}
+.member h5{
+    padding-top: 1.4em;
+    text-align: left;
+    color: rgb(139, 10, 231);
+    font-size: 1.8em;
+    font-weight: lighter;
+
+}
+.member p{
+    padding-top: 1em;
+    text-align: left;
+    color: rgb(184, 181, 181);
+    font-size: 1.5em;
+}
+/*end team*/
+/*start footer*/
+ footer{
+    background-color: rgb(239, 239, 250);
+    padding: 7em 0;
+}
+.footer-container{
+    width: 90%;
+    display: flex;
+    align-items: flex-end;
+    margin: 0 auto;
+}
+.footer .data{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+}
+footer h2{
+    color: indigo;
+    font-size: 5rem;
+    font-weight: lighter;
+    text-align: left;
+}
+footer h2::after{
+    content: "";
+    width: 2em;
+    height: .05em;
+    background: rgb(255, 0, 136);
+    display: block;
+    margin-bottom: 1em;
+    margin-top: .3em;
+}
+footer .starter{
+    color: grey;
+    font-size: 1.5em;
+    padding-bottom: 2.2em;
+    width: 80%;
+}
+footer .info p{
+padding-bottom: .8em;
+font-size: 1.5em;
+color: grey;
+}
+footer .info span{
+    color:indigo;
+}
+/*start form*/
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 45%;
+}
+form input, form textarea{
+    width: 100%;
+    border: 1px solid rgb(204, 203, 203);
+    padding: 2em;
+    border-radius: 2em 2em 2em 0;
+    margin-bottom:1em;
+}
+form button{
+    border: none;
+    padding: 1.2em 3em;
+    border-radius: 3em 3em 3em 0;
+    background-color: rgb(255, 0, 136);
+    color: white;
+} 
+/*end form*/
+/*end footer*/
